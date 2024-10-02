@@ -1,0 +1,212 @@
+
+
+  body {
+    background-color: rgb(0, 0, 0);
+  
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000; 
+    color: #1DB954; 
+    position: relative;
+    margin-bottom: 30px;
+    border-color: #000000; 
+  }
+  
+
+
+  .nav-title {
+    font-family: 'Outfit';
+    font-size: 75px;
+    font-weight: 500px;
+    color: inherit; 
+    text-align: center;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 30px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  .nav-menu a:hover {
+    color: #d6e4df; 
+
+  }
+  
+  .nav-title:hover {
+    color: #d6e4df; 
+    
+  }
+  
+
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  
+
+
+
+.footerfooter{ 
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 75px;
+   background-color: black;
+   color: #1DB954;
+   text-align: center;
+   padding-bottom: 2.5em;
+   border: 10px;
+   margin-top: 40%;
+
+}
+
+.logoLeft {
+font-size: 50px;
+font-family: 'Outfit';
+margin-left: 40px;
+}
+
+
+
+h4 { color: #1DB954;}
+
+p{
+  color: white;
+}
+
+.rowr{
+ display: flex;
+ justify-content: space-between; 
+ flex-wrap: wrap; 
+}
+
+.heroimg{
+  width: 600px; 
+  max-height: 400px; 
+  margin-left: 39%;
+
+}
+
+img {
+ max-width: 400px; 
+  max-height: 400px; 
+  object-fit: cover; 
+  border-radius: 10%;
+  padding-top: 5px;
+}
+
+
+
+.column {
+  flex: 0 1 calc(25% - 20px); 
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 2000px) {
+  .column {
+    flex: 0 1 calc(100% - 20px);
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(100,100,100);
+  padding: 16px;
+  text-align: center;
+  background-color: gray;
+  margin: 10px; 
+  border-radius: 5%; 
+max-width: 300px;
+ ;ß
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgb(129, 212,121);
+}
+
+.card > * {
+  margin-bottom: 10px; 
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #000000; 
+  color: #1DB954; 
+  position: relative;
+  margin-bottom: 30px;
+  border-color: #000000; 
+}
+
+
+
+.nav-title {
+  font-family: 'Outfit';
+  font-size: 75px;
+  font-weight: 500;
+  color: inherit; 
+  text-align: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.nav-menu a:hover {
+  color: #d6e4df; 
+
+}
+
+.nav-title:hover {
+  color: #d6e4df; 
+  
+}
+
+
+  . {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .midmeme {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
